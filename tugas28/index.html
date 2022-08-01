@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas CSS - Niomic</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <style>
+      body {
+        background-color: #333333;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container p-5">
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <form>
+            <img src="lampung.jpg" class="rounded-circle mx-auto d-block" alt="lampung" width="200px" />
+            <div class="form-group">
+              <label for="exampleInputName1" class="text-white">Nama Lengkap</label>
+              <input type="text" class="form-control" id="exampleInputName1" placeholder="Nama Lengkap" />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1" class="text-white">Alamat</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="exampleInput1" class="text-white">Alamat Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Alamat email (disabled)" />
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1" class="text-white">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+            </div>
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlFile1" class="text-white">Scan KTP</label>
+                <input type="file" class="form-control-file text-white" id="exampleFormControlFile1" />
+              </div>
+            </form>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+              <label class="form-check-label text-white" for="exampleCheck1">Saya <u>setuju</u> dan telah membaca <span style="color: blue">aturan</span> serta <span style="color: blue">ketentuan</span> yang berlaku </label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
